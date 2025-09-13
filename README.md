@@ -11,8 +11,11 @@ An SSH Client based on a distributed Client/Server architecture
 <p>This is a core feature of FreeCRT. You can run FreeCRT on one machine (the "server") and access your SSH sessions from FreeCRT in another device (the "client").</p>
 <ol>
     <li>On the machine running FreeCRT(the "server"), find the backend WebSocket URL. It is displayed as "Current Backend" in the main window (e.g., <code>ws://192.168.1.5:8888</code>).</li>
+    <img width="2265" height="1020" alt="image" src="https://github.com/user-attachments/assets/4d299e65-a2de-4060-ae92-f23316b39062" />
     <li>Click the <b>Manage Backend</b> button. In the dialog that opens, you copy the Local Backend Address to clipboard by clicking the <b>Export ws://host:port</b> button.</li>
+    <img width="434" height="359" alt="image" src="https://github.com/user-attachments/assets/e66424ed-5d3b-453d-8956-d33a99131ab2" />
     <li>On the client device, paste this URL to the client device by clicking the <b>Auto Import ws://host:port from Clipboard</b> button.</li>
+    <img width="420" height="368" alt="image" src="https://github.com/user-attachments/assets/1eb48fd2-b259-4d42-9061-ab8f0a99d6ab" />
     <li>Now you can close Manage Backend dialog and open a session using Distributed Mode.</li>
 </ol>
 
@@ -25,8 +28,9 @@ An SSH Client based on a distributed Client/Server architecture
 
 <h3>Data security</h3>
 <ul>
-    <li>All settings(without password) save to HKEY_CURRENT_USER\Software\FreeCRT\SSHClient</li>
+    <li>All settings(without password) save to Windows Registry---HKEY_CURRENT_USER\Software\FreeCRT\SSHClient</li>
 <img width="2765" height="454" alt="img" src="https://github.com/user-attachments/assets/3188b93b-2178-421f-bded-7136994c9b12" />
-    <li>All session password save to Windows Credential Manager</li>
-<img width="1344" height="364" alt="img_1" src="https://github.com/user-attachments/assets/16e29ff0-330c-458f-99db-67d1ce5d0cfd" />
+    <li>All sessions password save to Windows Credential Manager</li>
+<img width="2246" height="474" alt="image" src="https://github.com/user-attachments/assets/4560e97d-fb20-4177-ba98-c2a442703f01" />
+
 </ul>
