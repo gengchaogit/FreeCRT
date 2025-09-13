@@ -32,5 +32,11 @@ An SSH Client based on a distributed Client/Server architecture
 <img width="2765" height="454" alt="img" src="https://github.com/user-attachments/assets/3188b93b-2178-421f-bded-7136994c9b12" />
     <li>All sessions password save to Windows Credential Manager</li>
 <img width="2246" height="474" alt="image" src="https://github.com/user-attachments/assets/4560e97d-fb20-4177-ba98-c2a442703f01" />
+</ul>
 
+<h3>PS: The program is constantly iterating</h3>
+<ul>
+<li>1.SFTP functionality needs enhancement; currently, only upload and download modules are available.</li>
+<li>2.SSH key login is under development.</li>
+<li>Due to limited energy, I have discarded some of the less commonly used ssh functions. If you need them, please provide them in the issue area and I will consider adding them.</li>
 </ul>
