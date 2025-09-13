@@ -7,7 +7,7 @@ In many secure corporate environments, direct SSH access (port 22) to servers is
 
 **`FreeCRT` solves this problem.**
 
-It allows you to use your native SSH client on your local machine to connect to remote servers. It achieves this by establishing the secure session through the bastion host via a socket, rather than a direct port 22 connection. This means your session is still fully managed and audited by the bastion host, satisfying security requirements, while you get to keep the productivity and comfort of your local development environment.
+It allows you to use your native SSH client(FreeCRT A) on your local machine to connect to remote servers(FreeCRT B runing in Windows VM). It achieves this by establishing the secure session through the bastion host via a websocket, rather than a direct port 22 connection. This means your session is still fully managed and audited by the bastion host, satisfying security requirements, while you get to keep the productivity and comfort of your local development environment.
 
 <h2>How to Use FreeCRT</h2>
 <p>FreeCRT can be used in two main ways: as a standalone SSH client or in a distributed server/client model.</p>
