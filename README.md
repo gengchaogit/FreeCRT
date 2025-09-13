@@ -1,6 +1,14 @@
 # FreeCRT
 An SSH Client based on a distributed Client/Server architecture
 
+## Why FreeCRT?
+
+In many secure corporate environments, direct SSH access (port 22) to servers is disabled in favor of session-managed bastion hosts, such as BeyondTrust PowerBroker. While this enhances security and auditing capabilities, it often forces users into cumbersome web-based terminals or restricted clients, preventing them from using their preferred local SSH clients and tools (e.g., VS Code Remote, rsync, scp).
+
+**`FreeCRT` solves this problem.**
+
+It allows you to use your native SSH client on your local machine to connect to remote servers. It achieves this by establishing the secure session through the bastion host via a socket, rather than a direct port 22 connection. This means your session is still fully managed and audited by the bastion host, satisfying security requirements, while you get to keep the productivity and comfort of your local development environment.
+
 <h2>How to Use FreeCRT</h2>
 <p>FreeCRT can be used in two main ways: as a standalone SSH client or in a distributed server/client model.</p>
 
