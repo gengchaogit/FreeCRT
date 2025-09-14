@@ -1,18 +1,34 @@
-New Version v1.0.0
-
-What's New in This Version & Key Features:
-
-SecureCRT Session Import: Easily migrate your existing sessions! Now supports importing sessions from SecureCRT's exported XML files.
-Distributed Mode (SocketProxy): Our flagship feature! Use your native SSH client on your local machine to connect to remote servers via a bastion host using a secure websocket. Work seamlessly in secure corporate environments!
-Effortlessly obtain and set backend WebSocket URLs for client/server connection.
-Standalone Mode: Instantly connect to your SSH servers using the integrated Session Manager or Quick Connect bar for local session management.
-SFTP Browser: Open an integrated SFTP file browser for any active session. Supports Direct, TCP Forward, and WebSocket Proxy connection modes (recommended for Distributed Mode).
-Currently supports essential upload and download operations.
-Command Broadcast: Send commands simultaneously to all your active terminal sessions, significantly boosting multi-tasking efficiency.
-Advanced Tab Management:
-Double-click a tab to duplicate the session.
-Middle-click to quickly close a tab.
-Right-click for more advanced tab options.
-Secure Data Management:
-Non-sensitive settings (excluding passwords) are securely saved to the Windows Registry (HKEY_CURRENT_USER\Software\FreeCRT\SSHClient).
-All session passwords are securely stored in Windows Credential Manager.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Changelog - v1.0.0</title>
+</head>
+<body>
+    <h1>New Version v1.0.0</h1>
+    <h2>Changelog</h2>
+    <ol>
+        <li>Added SecureCRT session import (supports XML export).</li>
+        <li>Introduced Distributed Mode (SocketProxy) for secure WebSocket-based connections via bastion hosts.</li>
+        <li>Added quick WebSocket URL configuration for client/server connections.</li>
+        <li>Standalone Mode: connect directly using Session Manager or Quick Connect.</li>
+        <li>Integrated SFTP Browser with Direct, TCP Forward, and WebSocket Proxy support (basic upload/download).</li>
+        <li>Command Broadcast: send commands to all active sessions simultaneously.</li>
+        <li>
+            Advanced Tab Management:
+            <ol type="a">
+                <li>Double-click to duplicate</li>
+                <li>Middle-click to close</li>
+                <li>Right-click for more options</li>
+            </ol>
+        </li>
+        <li>
+            Secure Data Management:
+            <ol type="a">
+                <li>Non-sensitive settings saved in Windows Registry</li>
+                <li>Passwords stored in Windows Credential Manager</li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>
