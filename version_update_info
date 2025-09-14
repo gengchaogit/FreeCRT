@@ -1,0 +1,18 @@
+New Version v1.0.0
+
+What's New in This Version & Key Features:
+
+SecureCRT Session Import: Easily migrate your existing sessions! Now supports importing sessions from SecureCRT's exported XML files.
+Distributed Mode (SocketProxy): Our flagship feature! Use your native SSH client on your local machine to connect to remote servers via a bastion host using a secure websocket. Work seamlessly in secure corporate environments!
+Effortlessly obtain and set backend WebSocket URLs for client/server connection.
+Standalone Mode: Instantly connect to your SSH servers using the integrated Session Manager or Quick Connect bar for local session management.
+SFTP Browser: Open an integrated SFTP file browser for any active session. Supports Direct, TCP Forward, and WebSocket Proxy connection modes (recommended for Distributed Mode).
+Currently supports essential upload and download operations.
+Command Broadcast: Send commands simultaneously to all your active terminal sessions, significantly boosting multi-tasking efficiency.
+Advanced Tab Management:
+Double-click a tab to duplicate the session.
+Middle-click to quickly close a tab.
+Right-click for more advanced tab options.
+Secure Data Management:
+Non-sensitive settings (excluding passwords) are securely saved to the Windows Registry (HKEY_CURRENT_USER\Software\FreeCRT\SSHClient).
+All session passwords are securely stored in Windows Credential Manager.
